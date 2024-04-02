@@ -83,6 +83,28 @@ main form input+button {
 
 }
 
+main form .select-div::after {
+    top: 1.6rem;
+    right: 1.6rem; 
+    
+    content: '\f107';
+    font-family: 'font awesome 6 Free';
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    color: #35E6E9;
+
+}
+
+main form .select-div {
+    position: relative;
+
+}
+
+main form select {
+    appearance: none;
+}
+
 
 
 main form .points {
