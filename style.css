@@ -60,9 +60,10 @@ main h2 {
     font-weight: 500;
 }
 
-main form input {
+main form input, main form select {
     width: 489px;
     height: 5.5rem;
+    display: block;
 
     background: #FFFF;
     border: var(--default-border);
