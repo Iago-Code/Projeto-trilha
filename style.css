@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+.content {
+    display: grid;
+    grid-template-areas:
+        "....."
+        ". hero . form ."
+        ". hero . form ."
+        "..."
+    ;
+    gap: 8.5rem;
+}
+
+main {
+    grid-area: form;
+}
+
+aside {
+    grid-area: hero;
+}
+
+:root {
+    font-size: 62.5%;
+    --default-border: 0.1rem solid rgba(0, 0, 0, 0.15);
+
+
+}
+
+aside h1 {
+    font-family: 'Roboto';
+
+}
+
+aside h1 span {
+    color: #FF5678;
+
+}
+
+main {
+    width: 60rem;
+    height: 52rem;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    padding: 4.4rem 5.7rem;
+    border-radius: 1.2rem;
+    position: relative;
+}
+
+main h2 {
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+main form input {
+    width: 489px;
+    height: 5.5rem;
+
+    background: #FFFF;
+    border: var(--default-border);
+    border-radius: 1.2rem;
+
+}
+
+main form input+button {
+    position: absolute;
+    right: -3.7rem;
+    top: calc(2.7rem + 2.3rem );
+    background-color: transparent;
+    border: none;
+    color: #35E6E9;
+    font-size: 2.4rem;
+    cursor: pointer;
+
+}
+
+
+
+main form .points {
+    position: relative;
+}
+
+main h2 span {
+    color: #FF5678;
+}
+
+main .actions {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+main .actions a {
+    border-radius: 1.6rem;
+    text-decoration: none;
+    font-size: 2.4rem;
+    height: 5.5rem;
+    background-color: #35E6E9;
+    color: #ffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.4rem;
+}
+
+main .actions a+a {
+    background-color: #FF5678;
+    margin-top: 4.8rem;
+}
+
+main header {
+    display: flex;
+    gap: 0 1.8rem;
+    align-items: center;
+
+}
+
+main header i {
+    font-size: 2.4rem;
+    color: #FF5678;
+}
+
+main footer p {
+    font-size: 1.6rem;
+    margin-top: 8rem;
+}
+
+main form {
+    margin-top: 1.6rem;
+}
+
+main form label {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+main footer a {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
