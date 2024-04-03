@@ -12,6 +12,5 @@ function adicionarInput() {
     novoCampo.placeholder = "Novo Campo";
 
     // Adicionando o rótulo e o input ao formulário
-    form.appendChild(novoLabel);
     form.appendChild(novoCampo);
 }
